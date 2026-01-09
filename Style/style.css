@@ -249,3 +249,73 @@
             color:#627382;
             font-size:15px;
         }
+
+
+                /* *--- SOLUTION SECTION --- */
+
+        .solution-section {
+            margin-top: 100px;
+            max-width: 1600px;
+            height: 840px;
+            padding-top: 130px;
+            padding-bottom: 130px;
+        }
+        .solution-section .container{
+            margin-left: 140px;
+            display: flex;
+            max-width: 1360px;
+            height: 600px;
+            align-items: center;
+            gap: 60px;
+        }
+        .solution-section .knowledge{
+            max-width: 600px;
+            height: 500px;
+        }
+
+        .solution-content {
+            max-height: 700px;
+            height: 396px;
+            display: flex;
+            align-items: center;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+
+        .solution-text {
+            flex: 1;
+            min-width: 300px;
+        }
+        .solution-text .h-upper{
+            color: #469165;
+        }
+        .solution-text h2 {
+            font-size:48px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            line-height: 1.2;
+        }
+
+        .solution-text p {
+            font-size: 16px;
+            font-weight: 400;
+            color:#627382;
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
+        .feature-list li {
+            gap: 8px;
+            font-size: 16px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            font-weight: 500;
+        }
+
+        .feature-list li::before {
+            color:#2E7D55;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
