@@ -104,3 +104,62 @@
             cursor: pointer;
             background-color:#2E7D55;
         }
+
+                /* *--- HERO SECTION --- */
+
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+
+            padding: 12px 22px;
+            border-radius: 999px;
+
+            background: #ffffff;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+        }
+
+        .dot {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: #4caf50;
+            box-shadow: 0 0 0 4px rgba(76, 175, 80, 0.35);
+        }
+
+        .text {
+            font-size: 16px;
+            font-weight: 500;
+            color: #469165;
+            white-space: nowrap;
+        }
+
+        .hero {
+            padding: 80px 0;
+            background-image: url(/assets/hero-bg.png);
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            padding-top: 15px;
+            font-size:75px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            text-align: center;
+            font-size:18px;
+            font-weight: 400;
+            line-height: 30px;
+            color: white;
+            max-width: 700px;
+            margin: 0 auto 40px auto;
+            text-align: center;
+        }
+
+        .hero-buttons {
+            margin-bottom: 50px;
+        }
