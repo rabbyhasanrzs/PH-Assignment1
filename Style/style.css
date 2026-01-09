@@ -163,3 +163,89 @@
         .hero-buttons {
             margin-bottom: 50px;
         }
+
+                /* *--- PROBLEM SECTION --- */
+
+        .problem-section {
+            padding:80px 120px 120px 120px;
+            text-align: center;
+            max-width: 1600px;
+            height: 448px;
+
+
+        }
+        .problem-section h2 {
+            font-size: 48px;
+            font-weight: bold;
+            color: #001931;
+            margin-bottom: 15px;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .problem-section .subtext {
+            color:#627382;
+            margin-bottom: 60px;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+        }
+
+        .grid {
+            max-width:1460px;
+            height: 300px;
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: 430px;
+            height: 300px;
+            background:white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card-icon {
+            width: 50px;
+            height: 50px;
+            background-color: #F95555;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .card-icon img {
+            width: 24px;
+            height: 24px;
+            background:rgba(249, 85, 85, 1);
+        }
+
+        .card h3 {
+            text-align: center;
+            width: 100%;
+            font-size:20px;
+            font-weight: 600;
+            color: #001931;
+    
+        }
+
+        .card p {
+            text-align: center;
+            padding-top: 16px;
+            color:#627382;
+            font-size:15px;
+        }
