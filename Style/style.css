@@ -1,0 +1,106 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+        }
+
+
+        body {
+            color:black;
+            line-height: 1.2;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            transition: 0.3s;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            border-radius: 5px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary {
+            background-color:#2E7D55;
+            color: white;
+            border: 2px solid #2E7D55;
+        }
+
+        .btn-primary:hover {
+            background-color: #246343;
+            border-color: #246343;
+        }
+
+        .btn-outline {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+            margin-left: 10px;
+        }
+
+        .btn-outline:hover {
+            background-color:#F95555;
+            color:white;
+        }
+
+                /* *--- NAVBAR --- */
+
+        header {
+            padding: 20px 0;
+            background-color:white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo img {
+            height: 60px;
+            vertical-align: middle;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            font-weight: 500;
+            color:#000000;
+            font-size: 16px;
+        }
+
+        .nav-links a:hover {
+            color: #2E7D55;
+        }
+
+        .nav-cta {
+            font-size:16px;
+            color:white;
+            font-weight: 600;
+            padding: 12px 24px;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color:#2E7D55;
+        }
